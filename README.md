@@ -4,6 +4,7 @@ Energieverbrauchs-Scala jQuery Plugin
 ## Folder
 - test = jekyllrb test site
 - src = sources
+- dist = minified js&css files
 
 ## Description
 - Diese Version umfasst Gewerbliche und Nicht-Gewerbliche Skalen. 
@@ -23,6 +24,8 @@ Energieverbrauchs-Scala jQuery Plugin
 
 ## Example
 ```html
+<script type="text/javascript" src="enevjs-1.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="enevjs.min.css"/>
 <div class="enev"></div>
 ```
 
