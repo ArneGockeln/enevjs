@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>enevjs</title>
+    <style type="text/css">
+        body, html {
+            font-family: Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        body {
+            padding: 50px;
+            background: #eaeaea;
+        }
+    </style>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/css/enevjs.css"/>
+    <script src="http://localhost:4000/js/enev.js"></script>
+</head>
+<body>
+<div class="enevjs"></div>
+<script type="text/javascript">
+    $(function () {
+        $('.enevjs').enev({
+            value: 500,
+            showAnimation: true,
+            isIndustrial: true
+        });
+    });
+</script>
+</body>
+</html>
